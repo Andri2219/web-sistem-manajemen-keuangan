@@ -1,0 +1,75 @@
+/* Scrollbar untuk halaman secara keseluruhan */
+body::-webkit-scrollbar {
+    width: 10px; /* Lebar scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #cececed2; /* Warna tombol scrollbar */
+    border-radius: 10px; /* Membuat tombol scrollbar melengkung */
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Warna track scrollbar */
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #0000ff81; /* Warna tombol scrollbar saat di-hover */
+}
+
+/* Scrollbar untuk container-fluid jika dibutuhkan */
+.container-fluid::-webkit-scrollbar {
+    width: 10px; /* Lebar scrollbar */
+}
+
+.container-fluid::-webkit-scrollbar-thumb {
+    background-color: #28a745; /* Warna tombol scrollbar untuk container */
+    border-radius: 10px;
+}
+
+.container-fluid::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Warna track scrollbar */
+    border-radius: 10px;
+}
+
+.container-fluid::-webkit-scrollbar-thumb:hover {
+    background-color: #1e7e34; /* Warna tombol scrollbar saat di-hover */
+}
+
+/* Mengubah warna scrollbar pada elemen dengan overflow */
+.card-body::-webkit-scrollbar {
+    width: 8px; /* Lebar scrollbar */
+}
+
+.card-body::-webkit-scrollbar-thumb {
+    background-color: #0000ff81; /* Warna tombol scrollbar */
+    border-radius: 10px; /* Membuat tombol scrollbar melengkung */
+}
+
+.card-body::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Warna track scrollbar */
+    border-radius: 10px;
+}
+
+.card-body::-webkit-scrollbar-thumb:hover {
+    background-color: #007bff; /* Warna tombol scrollbar saat di-hover */
+}
+
+/* Mengubah scrollbar pada tabel */
+.card-body .table-responsive::-webkit-scrollbar {
+    height: 8px; /* Tinggi scrollbar horizontal */
+}
+
+.card-body .table-responsive::-webkit-scrollbar-thumb {
+    background-color: #cececed2; /* Warna tombol scrollbar */
+    border-radius: 10px; /* Membuat tombol scrollbar melengkung */
+}
+
+.card-body .table-responsive::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Warna track scrollbar */
+    border-radius: 10px;
+}
+
+.card-body .table-responsive::-webkit-scrollbar-thumb:hover {
+    background-color: #0000ff81; /* Warna tombol scrollbar saat di-hover */
+}
